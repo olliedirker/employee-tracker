@@ -1,23 +1,25 @@
 {
-    "name": "package",
+    "name": "employee-tracker",
     "version": "1.0.0",
     "description": "CLI employee CMS",
     "main": "app.js",
+    "seed": "node seed.sql",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/olliedirker/employee-tracker.git"
+        "type": "git",
+        "url": "git+https://github.com/olliedirker/employee-tracker.git"
     },
     "author": "olliedirker",
     "bugs": {
-      "url": "https://github.com/olliedirker/employee-tracker/issues"
+        "url": "https://github.com/olliedirker/employee-tracker/issues"
     },
     "homepage": "https://github.com/olliedirker/employee-tracker#readme",
     "dependencies": {
-      "console.table": "^0.10.0",
-      "inquirer": "^7.0.0",
-      "mysql": "^2.17.1"
+        "console.table": "^0.10.0",
+        "inquirer": "^7.0.0",
+        "mysql": "^2.17.1",
+        "mysql2": "^2.3.3"
     }
-  }
+}

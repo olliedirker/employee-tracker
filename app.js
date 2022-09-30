@@ -30,7 +30,7 @@ const db = new DB({
   host: "localhost",
   port: 3306,
   user: "root",
-  password: "password",
+  password: "root",
   database: "employeeDB",
 });
 
